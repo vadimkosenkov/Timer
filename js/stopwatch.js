@@ -12,7 +12,7 @@ StopWatch.prototype.initStopWatch = function(start, stop, reset, outputStopWatch
 }
 
 StopWatch.prototype.startFuncStopWatch = function(outputStopWatch) {
-    this.stopTick = setInterval(() => this.secNextTick(outputStopWatch), 100)
+    this.stopTick = setInterval(() => this.secNextTick(outputStopWatch), 1000)
 }
 
 StopWatch.prototype.stopFuncStopWatch = function() {
